@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7D21AA08-9663-4D90-9FB5-2547621A7A50}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Sort_dist_cabs.My.MyApplication</StartupObject>
+    <RootNamespace>Sort_dist_cabs</RootNamespace>
+    <AssemblyName>Sort_dist_cabs</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Sort_dist_cabs.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Sort_dist_cabs.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BookingsDisplay.Designer.vb">
+      <DependentUpon>BookingsDisplay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BookingsDisplay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BusHome.Designer.vb">
+      <DependentUpon>BusHome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BusHome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DriverConfirmation_short.Designer.vb">
+      <DependentUpon>DriverConfirmation_short.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DriverConfirmation_short.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Emergency.Designer.vb">
+      <DependentUpon>Emergency.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Emergency.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ErickshawHome.Designer.vb">
+      <DependentUpon>ErickshawHome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ErickshawHome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="e_rick_driver_reco.Designer.vb">
+      <DependentUpon>e_rick_driver_reco.vb</DependentUpon>
+    </Compile>
+    <Compile Include="e_rick_driver_reco.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.vb">
+      <DependentUpon>Home.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Home.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="longDiscRec.Designer.vb">
+      <DependentUpon>longDiscRec.vb</DependentUpon>
+    </Compile>
+    <Compile Include="longDiscRec.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LongDistanceHome.Designer.vb">
+      <DependentUpon>LongDistanceHome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LongDistanceHome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="map.Designer.vb">
+      <DependentUpon>map.vb</DependentUpon>
+    </Compile>
+    <Compile Include="map.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Query.vb" />
+    <Compile Include="ReccoHome.Designer.vb">
+      <DependentUpon>ReccoHome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReccoHome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShortDist_driversDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ShortDist_driversDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Signup.Designer.vb">
+      <DependentUpon>Signup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Signup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserDetails.Designer.vb">
+      <DependentUpon>UserDetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserDetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BookingsDisplay.resx">
+      <DependentUpon>BookingsDisplay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BusHome.resx">
+      <DependentUpon>BusHome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DriverConfirmation_short.resx">
+      <DependentUpon>DriverConfirmation_short.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Emergency.resx">
+      <DependentUpon>Emergency.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ErickshawHome.resx">
+      <DependentUpon>ErickshawHome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="e_rick_driver_reco.resx">
+      <DependentUpon>e_rick_driver_reco.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="longDiscRec.resx">
+      <DependentUpon>longDiscRec.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LongDistanceHome.resx">
+      <DependentUpon>LongDistanceHome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="map.resx">
+      <DependentUpon>map.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReccoHome.resx">
+      <DependentUpon>ReccoHome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Signup.resx">
+      <DependentUpon>Signup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserDetails.resx">
+      <DependentUpon>UserDetails.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="ShortDist_driversDataSet.xsc">
+      <DependentUpon>ShortDist_driversDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ShortDist_driversDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ShortDist_driversDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ShortDist_driversDataSet.xss">
+      <DependentUpon>ShortDist_driversDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Guw_map_shrt_cabs.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iitg_map_image_cropped.jpg" />
+    <None Include="Resources\form_bg.jpg" />
+    <None Include="Resources\updatebutton.png" />
+    <None Include="Resources\Backbutton.png" />
+    <None Include="Resources\background2.jpeg" />
+    <None Include="Resources\bus.png" />
+    <None Include="Resources\e_rickIcon.png" />
+    <None Include="Resources\form_bg1.jpg" />
+    <None Include="Resources\Guw_map_shrt_cabs1.jpg" />
+    <None Include="Resources\iitg_map_image_cropped1.jpg" />
+    <None Include="Resources\login.png" />
+    <None Include="Resources\loginLogo.png" />
+    <None Include="Resources\logout.png" />
+    <None Include="Resources\longDistcab.png" />
+    <None Include="Resources\pass_hide_show.png" />
+    <None Include="Resources\recomIcon.png" />
+    <None Include="Resources\refreshButton.png" />
+    <None Include="Resources\signup.png" />
+    <None Include="Resources\signup11.jfif" />
+    <None Include="Resources\updatebutton1.png" />
+    <None Include="Resources\vacation_6-512.png" />
+    <None Include="Resources\wheelLogo.png" />
+    <None Include="Resources\arrow.png" />
+    <None Include="Resources\confirmDriver.jpg" />
+    <None Include="Resources\findCabsIcon.jfif" />
+    <None Include="Resources\map_cropped.gif" />
+    <None Include="Resources\Profilepic.png" />
+    <None Include="Resources\Image1.bmp" />
+    <None Include="ERickshaw_driver_photos\cat.jpg" />
+    <None Include="ERickshaw_driver_photos\crow.jpg" />
+    <None Include="ERickshaw_driver_photos\dog.jpeg" />
+    <None Include="ERickshaw_driver_photos\lion.jpeg" />
+    <None Include="ERickshaw_driver_photos\rat.jpg" />
+    <None Include="Resources\clipart1108218.png" />
+    <None Include="Resources\MyDestinationIcon.png" />
+    <None Include="Resources\myLocationIcon.png" />
+    <None Include="Resources\im1.jpg" />
+    <None Include="Resources\im2.png" />
+    <None Include="Resources\im3.png" />
+    <None Include="Resources\im4.png" />
+    <None Include="Resources\im5.png" />
+    <None Include="Resources\im6.png" />
+    <None Include="Resources\im7.png" />
+    <None Include="Resources\im8.png" />
+    <Content Include="ShortDist_drivers.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

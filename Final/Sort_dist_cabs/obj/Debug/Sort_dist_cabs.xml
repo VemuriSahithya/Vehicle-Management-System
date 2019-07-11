@@ -1,0 +1,328 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Sort_dist_cabs
+</name>
+</assembly>
+<members>
+<member name="P:Sort_dist_cabs.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Sort_dist_cabs.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Sort_dist_cabs.My.Resources.Resources.arrow">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sort_dist_cabs.My.Resources.Resources.Backbutton">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sort_dist_cabs.My.Resources.Resources.background2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sort_dist_cabs.My.Resources.Resources.bus">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sort_dist_cabs.My.Resources.Resources.cat">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sort_dist_cabs.My.Resources.Resources.clipart1108218">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sort_dist_cabs.My.Resources.Resources.confirmDriver">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sort_dist_cabs.My.Resources.Resources.crow">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sort_dist_cabs.My.Resources.Resources.dog">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sort_dist_cabs.My.Resources.Resources.e_rickIcon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sort_dist_cabs.My.Resources.Resources.findCabsIcon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sort_dist_cabs.My.Resources.Resources.form_bg">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sort_dist_cabs.My.Resources.Resources.Guw_map_shrt_cabs">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sort_dist_cabs.My.Resources.Resources.Guw_map_shrt_cabs1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sort_dist_cabs.My.Resources.Resources.iitg_map_image_cropped">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sort_dist_cabs.My.Resources.Resources.iitg_map_image_cropped1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sort_dist_cabs.My.Resources.Resources.im1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sort_dist_cabs.My.Resources.Resources.im2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sort_dist_cabs.My.Resources.Resources.im3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sort_dist_cabs.My.Resources.Resources.im4">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sort_dist_cabs.My.Resources.Resources.im5">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sort_dist_cabs.My.Resources.Resources.im6">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sort_dist_cabs.My.Resources.Resources.im7">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sort_dist_cabs.My.Resources.Resources.im8">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sort_dist_cabs.My.Resources.Resources.Image1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sort_dist_cabs.My.Resources.Resources.lion">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sort_dist_cabs.My.Resources.Resources.login">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sort_dist_cabs.My.Resources.Resources.loginLogo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sort_dist_cabs.My.Resources.Resources.logout">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sort_dist_cabs.My.Resources.Resources.longDistcab">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sort_dist_cabs.My.Resources.Resources.map_cropped">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sort_dist_cabs.My.Resources.Resources.MyDestinationIcon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sort_dist_cabs.My.Resources.Resources.myLocationIcon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sort_dist_cabs.My.Resources.Resources.pass_hide_show">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sort_dist_cabs.My.Resources.Resources.Profilepic">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sort_dist_cabs.My.Resources.Resources.rat">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sort_dist_cabs.My.Resources.Resources.recomIcon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sort_dist_cabs.My.Resources.Resources.refreshButton">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sort_dist_cabs.My.Resources.Resources.signup">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sort_dist_cabs.My.Resources.Resources.signup1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sort_dist_cabs.My.Resources.Resources.updatebutton">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sort_dist_cabs.My.Resources.Resources.vacatio">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Sort_dist_cabs.My.Resources.Resources.wheelLogo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:Sort_dist_cabs.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:Sort_dist_cabs.ShortDist_driversDataSet.Drivers_shortDistDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sort_dist_cabs.ShortDist_driversDataSet.Drivers_LongDistanceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sort_dist_cabs.ShortDist_driversDataSet.BusTimingsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sort_dist_cabs.ShortDist_driversDataSet.Drivers_ErickshawDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sort_dist_cabs.ShortDist_driversDataSet.UsersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sort_dist_cabs.ShortDist_driversDataSet.BookingsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Sort_dist_cabs.ShortDist_driversDataSet.Drivers_shortDistRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sort_dist_cabs.ShortDist_driversDataSet.Drivers_LongDistanceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sort_dist_cabs.ShortDist_driversDataSet.BusTimingsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sort_dist_cabs.ShortDist_driversDataSet.Drivers_ErickshawRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sort_dist_cabs.ShortDist_driversDataSet.UsersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sort_dist_cabs.ShortDist_driversDataSet.BookingsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Sort_dist_cabs.ShortDist_driversDataSet.Drivers_shortDistRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sort_dist_cabs.ShortDist_driversDataSet.Drivers_LongDistanceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sort_dist_cabs.ShortDist_driversDataSet.BusTimingsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sort_dist_cabs.ShortDist_driversDataSet.Drivers_ErickshawRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sort_dist_cabs.ShortDist_driversDataSet.UsersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sort_dist_cabs.ShortDist_driversDataSet.BookingsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Sort_dist_cabs.ShortDist_driversDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Sort_dist_cabs.ShortDist_driversDataSetTableAdapters.Drivers_shortDistTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Sort_dist_cabs.ShortDist_driversDataSetTableAdapters.Drivers_LongDistanceTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Sort_dist_cabs.ShortDist_driversDataSetTableAdapters.BusTimingsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Sort_dist_cabs.ShortDist_driversDataSetTableAdapters.Drivers_ErickshawTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Sort_dist_cabs.ShortDist_driversDataSetTableAdapters.UsersTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Sort_dist_cabs.ShortDist_driversDataSetTableAdapters.BookingsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Sort_dist_cabs.ShortDist_driversDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Sort_dist_cabs.ShortDist_driversDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Sort_dist_cabs.ShortDist_driversDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Sort_dist_cabs.ShortDist_driversDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Sort_dist_cabs.ShortDist_driversDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Sort_dist_cabs.ShortDist_driversDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Sort_dist_cabs.ShortDist_driversDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Sort_dist_cabs.ShortDist_driversDataSetTableAdapters.TableAdapterManager.UpdateAll(Sort_dist_cabs.ShortDist_driversDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Sort_dist_cabs.ShortDist_driversDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Sort_dist_cabs.ShortDist_driversDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Sort_dist_cabs.ShortDist_driversDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>
